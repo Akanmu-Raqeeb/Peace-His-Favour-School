@@ -1,0 +1,223 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css);
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+    width: 100%;
+}
+body{
+    scroll-behavior: smooth;
+}
+.firstsec{
+width: 250px;
+
+}
+.secondsec{
+width:350px;
+    display: flex;
+    cursor: pointer;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo{
+    background-image: url(./img/ENWQE7991.JPG);
+    height: 60px;
+    width: 100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+.secondsec div:hover{
+    color:#722f37 ;
+}
+.thirdsec{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 400px;
+
+}
+.info1{
+    height: 250px;
+    width:500px;
+    background-color: burlywood;
+    color: black;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    padding: 100px;
+}
+@media (max-width:500px) {
+    .fourthsec{
+        margin-top: 400px;
+        
+    }
+    .move{
+        margin-top: 380px;
+    }
+   
+    .mover{
+        margin-top: 450px;
+    }
+    .info3{
+        width:400px ;
+    }
+    .firstsec{
+        width: 100px;
+    }
+    .hide1{
+        display: none;
+    }
+    body{
+        align-items: center;
+    }
+   
+}
+.info3{
+    height: 307px;
+    width: 500px;
+    
+    background-color: white;
+    font-size: 19px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    text-align: center;
+    padding: 50px;
+    background-image: url(./img/IMG_6804.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode:luminosity;
+   
+}
+.info2{
+    height: 450px;
+    width: 500px;
+    background-color: green;
+    color: white;
+    background-image: url(./img/PGFI1857.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.info4{
+    height: 307px;
+    width: 500px;
+    background-color: orangered;
+    color: black;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    padding: 50px;
+    font-size: 19px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.fourthsec{
+    display: flex;
+    flex-wrap: wrap;
+}
+.info5{width: 400px;
+    height: 350px;
+    min-width: 350px;
+    text-align: center;
+    border: solid 1px black;
+    font-size: 19px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-blend-mode:luminosity;
+    background-color: white;
+}
+.fifthsec{
+    display: flex;
+    flex-wrap: wrap;
+}
+.info6{
+display: block;
+justify-content: space-around;
+width: 380px;
+    height: 300px;
+    min-width: 350px;
+    text-align: center;
+    border: solid 1px black;
+    background-color:  burlywood;
+    margin: 10px;
+}
+.info7{
+display: block;
+justify-content: space-around;
+width: 380px;
+    height:250px;
+    min-width: 350px;
+    text-align: center;
+    border: solid 1px black;
+    
+    margin: 10px;
+}
+.big{
+    color: #722f37;
+    font-size: 35px;
+    margin-top: 20px;
+}
+.big2{
+    color: #722f37;
+    font-size: 28px;
+    margin-top: 20px;
+}
+.small{
+    color: #722f37;
+    font-size: 18px;
+}
+input{
+    width: 90%;
+    height: 30px;
+    outline: none;
+    border-top :none ;
+    border-left :none ;
+    border-right :none ;
+    border-bottom:solid 2px  #722f37 ;
+    background-color: burlywood;
+    font-size: 18px;
+    color: black;
+}
+
+button{
+    background-color: burlywood;
+    color: #722f37;
+    height: 40px;
+    border: 2px dashed  #722f37 ;
+    width: 80%;
+    cursor: pointer;
+    font-weight: bolder;
+}
+button:hover{
+    background-color:#722f37 ;
+    color: burlywood;
+    height: 40px;
+    border: 2px solid  burlywood;
+    width: 82%;
+    cursor: pointer;
+    font-weight: bolder;
+}
+.lastsec{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+@media (max-width:880px) {
+    .info5{
+        width : 350px;
+        
+    }
+    .fourthsec{
+        margin-top: 400px;
+    }
+    .moved{
+        margin-top: 450px;
+    }
+    .info6{
+        width: 350px;
+    }
+    .info2{
+        width: 700px;
+    }
+    }
